@@ -34,8 +34,8 @@ def btnClick(buttons):
     if buttons["text"] == " " and bclick == True:
         buttons["text"] = "X"
         bclick = False
-        playerb = p2.get() + " Wins!"
-        pa = p1.get() + " Wins!"
+        playerb = "O Wins!"
+        pa = "X Wins!"
         checkForWin()
         flag += 1
 
